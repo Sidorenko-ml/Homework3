@@ -12,7 +12,7 @@ except ValueError:
     raise NonNumericError
 if k1 == str:
     raise NonNumericError
-if len(k1) != 5:
+if len(k1) != 6:
     raise InconsistentDataError
 k2 = [item**2 for item in k1]
 c1 = (k1[0] + k1[2])**0.5
